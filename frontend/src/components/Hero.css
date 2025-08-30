@@ -1,55 +1,29 @@
 /* --- HERO SECTION CONTAINER --- */
 .hero-container {
   text-align: center;
-  padding: 3rem 0; /* Adjusted vertical padding */
-  max-width: 900px; /* Constrain width for better readability */
-  margin: 0 auto; /* Center the container */
-  position: relative; /* For potential animations */
+  padding: 3rem 0;
+  max-width: 900px;
+  margin: 0 auto;
 }
-
 
 /* --- HEADINGS --- */
 .hero-container h1 {
-  font-size: 3.2rem; /* Larger, more impactful title */
+  font-size: 3.2rem;
   font-weight: 700;
-  line-height: 1.15; /* Tighter line height for large text */
-  margin-bottom: 1.0rem; /* Space below title */
+  line-height: 1.15;
+  margin-bottom: 1.0rem;
   color: var(--text-color);
-  transition: opacity 0.5s ease-out; /* Smooth fade in */
 }
 
 .hero-container p {
-  font-size: 1.15rem; /* Readable paragraph size */
+  font-size: 1.15rem;
   color: var(--text-muted);
-  max-width: 800px; /* Keep paragraph concise */
-  margin: 0 auto 2.5rem; /* Space below paragraph */
+  max-width: 800px;
+  margin: 0 auto 2.5rem;
   line-height: 1.6;
-  transition: opacity 0.5s ease-out 0.2s; /* Delayed smooth fade in */
 }
 
-/* --- CHECKLIST ITEMS (if you decide to use them, currently not in screenshot) --- */
-.hero-checklist {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-top: 2rem; /* Space above checklist */
-}
-
-.hero-checklist-item {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.95rem;
-  color: var(--text-muted);
-}
-
-.hero-checklist-item svg {
-  color: var(--primary-color); /* Checkmark color */
-  width: 18px;
-  height: 18px;
-}
-
-/* --- CATEGORY SUGGESTION CONTAINER (from previous changes) --- */
+/* --- CATEGORY SUGGESTION CONTAINER --- */
 .category-suggestion-container {
   margin-top: 2.5rem;
   padding: 1.5rem;
@@ -84,7 +58,6 @@
   font-weight: 500;
 }
 
-
 /* --- RESPONSIVENESS --- */
 @media (max-width: 768px) {
   .hero-container h1 {
@@ -94,11 +67,6 @@
   .hero-container p {
     font-size: 1rem; /* Smaller paragraph on tablets */
     margin-bottom: 2rem;
-  }
-
-  .hero-checklist {
-    flex-direction: column; /* Stack checklist items on tablets */
-    gap: 0.75rem;
   }
 }
 
