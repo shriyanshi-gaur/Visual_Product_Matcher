@@ -1,0 +1,33 @@
+/* Import a font similar to the one in the screenshot */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Define color variables and base styles */
+:root {
+  --primary-color: #111827; /* Dark gray/black */
+  --secondary-color: #ffffff; /* Light gray for buttons/badges */
+  --border-color: #757070; /* Border color */
+  --text-color: #000000;
+  --text-muted: #151616;
+  --background-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+html {
+  scroll-behavior: smooth;
+}

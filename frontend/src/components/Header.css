@@ -1,0 +1,165 @@
+.main-header {
+  padding: 0 2rem;
+}
+
+.hero-container {
+  text-align: center;
+  /* Reduced vertical padding from 5rem to 3rem */
+  padding: 3rem 0;
+}
+
+.header-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* These three lines correctly align the header items */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  height: 70px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.logo-icon {
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.main-nav a:hover {
+  color: var(--primary-color);
+}
+
+.header-actions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+/* --- Base Button Styles --- */
+.btn {
+  border: 1px solid var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Secondary buttons have a light background */
+.btn-secondary {
+  background-color: var(--secondary-color, #f3f4f6);
+  color: var(--text-color);
+}
+.btn-secondary:hover {
+  background-color: #e5e7eb;
+  border-color: var(--primary-color);
+} */
+
+.main-header {
+  padding: 0 2rem;
+}
+
+.header-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.logo-icon {
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.main-nav a:hover {
+  color: var(--primary-color);
+}
+
+.header-actions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+/* --- Base Button Styles --- */
+.btn {
+  border: 1px solid var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* --- Style for the "Get Started" Button --- */
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+.btn-primary:hover {
+  background-color: var(--text-muted);
+  border-color: var(--text-muted);
+}
+
+/* --- Style for the "GitHub" Button --- */
+.btn-secondary {
+  background-color: transparent;
+  color: var(--text-color);
+}
+.btn-secondary:hover {
+  background-color: var(--primary-color);
+  color: white;
+}

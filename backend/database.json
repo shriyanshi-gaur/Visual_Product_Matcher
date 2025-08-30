@@ -1,0 +1,524 @@
+[
+  {
+    "id": 1,
+    "name": "Gold Analog Watch",
+    "category": "Watches",
+    "image_path": "images/accessories/1_acc.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Black Sport Watch",
+    "category": "Watches",
+    "image_path": "images/accessories/2_acc.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Round Fitness Tracker",
+    "category": "Watches",
+    "image_path": "images/accessories/3_acc.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Blue Smartwatch",
+    "category": "Watches",
+    "image_path": "images/accessories/4_acc.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Black Digital Watch",
+    "category": "Watches",
+    "image_path": "images/accessories/5_acc.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Clubmaster Sunglasses",
+    "category": "Sunglasses",
+    "image_path": "images/accessories/6_acc.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Black Wayfarer Sunglasses",
+    "category": "Sunglasses",
+    "image_path": "images/accessories/7_acc.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Red Sport Sunglasses",
+    "category": "Sunglasses",
+    "image_path": "images/accessories/8_acc.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Blue Aviator Sunglasses",
+    "category": "Sunglasses",
+    "image_path": "images/accessories/9_acc.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Grey Laptop Backpack",
+    "category": "Backpacks",
+    "image_path": "images/accessories/10_acc.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "Pink School Backpack",
+    "category": "Backpacks",
+    "image_path": "images/accessories/11_acc.jpeg"
+  },
+  {
+    "id": 12,
+    "name": "Blue Canvas Backpack",
+    "category": "Backpacks",
+    "image_path": "images/accessories/12_acc.jpeg"
+  },
+  {
+    "id": 13,
+    "name": "Mint Green Handbag",
+    "category": "Handbags",
+    "image_path": "images/accessories/13_acc.jpeg"
+  },
+  {
+    "id": 14,
+    "name": "Black Tote Bag",
+    "category": "Handbags",
+    "image_path": "images/accessories/14_acc.jpeg"
+  },
+  {
+    "id": 15,
+    "name": "Pink Leather Handbag",
+    "category": "Handbags",
+    "image_path": "images/accessories/15_acc.jpeg"
+  },
+  {
+    "id": 16,
+    "name": "Straw Sun Hat",
+    "category": "Hats",
+    "image_path": "images/accessories/16_acc.jpeg"
+  },
+  {
+    "id": 17,
+    "name": "Black Bucket Hat",
+    "category": "Hats",
+    "image_path": "images/accessories/17_acc.jpeg"
+  },
+  {
+    "id": 18,
+    "name": "Beige Fedora Hat",
+    "category": "Hats",
+    "image_path": "images/accessories/18_acc.jpeg"
+  },
+  {
+    "id": 19,
+    "name": "Black Top Hat",
+    "category": "Hats",
+    "image_path": "images/accessories/19_acc.jpeg"
+  },
+  {
+    "id": 20,
+    "name": "Grey Baseball Cap",
+    "category": "Hats",
+    "image_path": "images/accessories/20_acc.jpeg"
+  },
+  {
+    "id": 21,
+    "name": "Purple Sports Jersey",
+    "category": "T-Shirts",
+    "image_path": "images/apparel/1_apparel.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Graphic T-Shirt",
+    "category": "T-Shirts",
+    "image_path": "images/apparel/2_apparel.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Blue Polo Shirt",
+    "category": "T-Shirts",
+    "image_path": "images/apparel/3_apparel.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Patterned Sundress",
+    "category": "Dresses",
+    "image_path": "images/apparel/4_apparel.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Black Denim Shorts",
+    "category": "Shorts",
+    "image_path": "images/apparel/5_apparel.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Black Capri Pants",
+    "category": "Trousers",
+    "image_path": "images/apparel/6_apparel.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Grey Track Pants",
+    "category": "Trousers",
+    "image_path": "images/apparel/7_apparel.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Windbreaker Jacket",
+    "category": "Jackets",
+    "image_path": "images/apparel/8_apparel.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Floral Jumper Dress",
+    "category": "Dresses",
+    "image_path": "images/apparel/9_apparel.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Pink Leggings",
+    "category": "Trousers",
+    "image_path": "images/apparel/10_apparel.jpg"
+  },
+  {
+    "id": 31,
+    "name": "White & Gold Sneakers",
+    "category": "Sneakers",
+    "image_path": "images/apparel/11_apparel.jpeg"
+  },
+  {
+    "id": 32,
+    "name": "Assorted White Sneakers",
+    "category": "Sneakers",
+    "image_path": "images/apparel/12_apparel.jpeg"
+  },
+  {
+    "id": 33,
+    "name": "Black Patterned Sneakers",
+    "category": "Sneakers",
+    "image_path": "images/apparel/13_apparel.jpeg"
+  },
+  {
+    "id": 34,
+    "name": "Motorcycle Boots",
+    "category": "Boots",
+    "image_path": "images/apparel/14_apparel.jpeg"
+  },
+  {
+    "id": 35,
+    "name": "Black Riding Boots",
+    "category": "Boots",
+    "image_path": "images/apparel/15_apparel.jpeg"
+  },
+  {
+    "id": 36,
+    "name": "Maroon Dress Shirt",
+    "category": "Shirts",
+    "image_path": "images/apparel/16_apparel.jpeg"
+  },
+  {
+    "id": 37,
+    "name": "Black Windows Laptop",
+    "category": "Laptops",
+    "image_path": "images/electronics/1_el.jpeg"
+  },
+  {
+    "id": 38,
+    "name": "Silver Vivobook Laptop",
+    "category": "Laptops",
+    "image_path": "images/electronics/2_el.jpeg"
+  },
+  {
+    "id": 39,
+    "name": "Blue Gaming Laptop",
+    "category": "Laptops",
+    "image_path": "images/electronics/3_el.jpeg"
+  },
+  {
+    "id": 40,
+    "name": "iPhone 14 Pro",
+    "category": "Smartphones",
+    "image_path": "images/electronics/4_el.jpeg"
+  },
+  {
+    "id": 41,
+    "name": "Nokia Feature Phone",
+    "category": "Smartphones",
+    "image_path": "images/electronics/5_el.jpeg"
+  },
+  {
+    "id": 42,
+    "name": "Android Smartphone",
+    "category": "Smartphones",
+    "image_path": "images/electronics/6_el.jpeg"
+  },
+  {
+    "id": 43,
+    "name": "On-Ear Headphones",
+    "category": "Headphones",
+    "image_path": "images/electronics/7_el.jpeg"
+  },
+  {
+    "id": 44,
+    "name": "Pink Over-Ear Headphones",
+    "category": "Headphones",
+    "image_path": "images/electronics/8_el.jpeg"
+  },
+  {
+    "id": 45,
+    "name": "RGB Gaming Headset",
+    "category": "Headphones",
+    "image_path": "images/electronics/9_el.jpeg"
+  },
+  {
+    "id": 46,
+    "name": "Wireless Neckband Earphones",
+    "category": "Headphones",
+    "image_path": "images/electronics/10_el.jpeg"
+  },
+  {
+    "id": 47,
+    "name": "Pink Neckband Earphones",
+    "category": "Headphones",
+    "image_path": "images/electronics/11_el.png"
+  },
+  {
+    "id": 48,
+    "name": "RGB Gaming Keyboard & Mouse",
+    "category": "Keyboards",
+    "image_path": "images/electronics/12_el.jpeg"
+  },
+  {
+    "id": 49,
+    "name": "Black Office Keyboard",
+    "category": "Keyboards",
+    "image_path": "images/electronics/13_el.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Apple Magic Keyboard",
+    "category": "Keyboards",
+    "image_path": "images/electronics/14_el.jpeg"
+  },
+  {
+    "id": 51,
+    "name": "Android Tablet",
+    "category": "Tablets",
+    "image_path": "images/electronics/15_el.jpeg"
+  },
+  {
+    "id": 52,
+    "name": "Surface Tablet",
+    "category": "Tablets",
+    "image_path": "images/electronics/16_el.webp"
+  },
+  {
+    "id": 53,
+    "name": "Wooden Utensil Set",
+    "category": "Utensils",
+    "image_path": "images/home_kitchen/1_hk.jpeg"
+  },
+  {
+    "id": 54,
+    "name": "Steel Utensil Set",
+    "category": "Utensils",
+    "image_path": "images/home_kitchen/2_hk.jpeg"
+  },
+  {
+    "id": 55,
+    "name": "Steel Cookware Set",
+    "category": "Cookware",
+    "image_path": "images/home_kitchen/3_hk.jpeg"
+  },
+  {
+    "id": 56,
+    "name": "Assorted Kitchen Utensils",
+    "category": "Utensils",
+    "image_path": "images/home_kitchen/4_hk.jpeg"
+  },
+  {
+    "id": 57,
+    "name": "Silverware Set",
+    "category": "Cutlery",
+    "image_path": "images/home_kitchen/5_hk.jpeg"
+  },
+  {
+    "id": 58,
+    "name": "Grey Ceramic Mug",
+    "category": "Mugs",
+    "image_path": "images/home_kitchen/6_hk.jpeg"
+  },
+  {
+    "id": 59,
+    "name": "Floral Pattern Mug",
+    "category": "Mugs",
+    "image_path": "images/home_kitchen/7_hk.jpeg"
+  },
+  {
+    "id": 60,
+    "name": "Branch Pattern Mug Set",
+    "category": "Mugs",
+    "image_path": "images/home_kitchen/8_hk.jpeg"
+  },
+  {
+    "id": 61,
+    "name": "Wooden Dining Chair",
+    "category": "Chairs",
+    "image_path": "images/home_kitchen/9_hk.jpeg"
+  },
+  {
+    "id": 62,
+    "name": "Blue Upholstered Chair",
+    "category": "Chairs",
+    "image_path": "images/home_kitchen/10_hk.jpeg"
+  },
+  {
+    "id": 63,
+    "name": "Modern Bicycle",
+    "category": "Bicycles",
+    "image_path": "images/miscellaneous/1_m.jpeg"
+  },
+  {
+    "id": 64,
+    "name": "Vintage Bicycle",
+    "category": "Bicycles",
+    "image_path": "images/miscellaneous/2_m.jpeg"
+  },
+  {
+    "id": 65,
+    "name": "Kids Bicycle",
+    "category": "Bicycles",
+    "image_path": "images/miscellaneous/3_m.jpeg"
+  },
+  {
+    "id": 66,
+    "name": "Electric Guitar",
+    "category": "Guitars",
+    "image_path": "images/miscellaneous/4_m.jpeg"
+  },
+  {
+    "id": 67,
+    "name": "Classical Guitar",
+    "category": "Guitars",
+    "image_path": "images/miscellaneous/5_m.jpeg"
+  },
+  {
+    "id": 68,
+    "name": "Blue Acoustic Guitar",
+    "category": "Guitars",
+    "image_path": "images/miscellaneous/6_m.jpeg"
+  },
+  {
+    "id": 69,
+    "name": "Mesh Office Chair",
+    "category": "Chairs",
+    "image_path": "images/home_kitchen/11_hk.jpeg"
+  },
+  {
+    "id": 70,
+    "name": "Padded Visitor Chair",
+    "category": "Chairs",
+    "image_path": "images/home_kitchen/19_hk.jpeg"
+  },
+  {
+    "id": 71,
+    "name": "Reusable Water Bottle",
+    "category": "Water Bottles",
+    "image_path": "images/home_kitchen/20_hk.jpeg"
+  },
+  {
+    "id": 72,
+    "name": "Plastic Water Bottles",
+    "category": "Water Bottles",
+    "image_path": "images/home_kitchen/21_hk.jpeg"
+  },
+  {
+    "id": 73,
+    "name": "Steel Thermos Flask",
+    "category": "Water Bottles",
+    "image_path": "images/home_kitchen/22_hk.jpeg"
+  },
+  {
+    "id": 74,
+    "name": "Black Leather Jacket",
+    "category": "Jackets",
+    "image_path": "images/apparel/17_apparel.jpeg"
+  },
+  {
+    "id": 75,
+    "name": "Red Winter Jacket",
+    "category": "Jackets",
+    "image_path": "images/apparel/18_apparel.jpeg"
+  },
+  {
+    "id": 76,
+    "name": "Puffer Jacket",
+    "category": "Jackets",
+    "image_path": "images/apparel/19_apparel.jpeg"
+  },
+  {
+    "id": 77,
+    "name": "Wide-Leg Jeans",
+    "category": "Jeans",
+    "image_path": "images/apparel/20_apparel.jpeg"
+  },
+  {
+    "id": 78,
+    "name": "Black Cargo Jeans",
+    "category": "Jeans",
+    "image_path": "images/apparel/21_apparel.jpeg"
+  },
+  {
+    "id": 79,
+    "name": "Yellow Slim-Fit Jeans",
+    "category": "Jeans",
+    "image_path": "images/apparel/22_apparel.jpeg"
+  },
+  {
+    "id": 80,
+    "name": "Faded Skinny Jeans",
+    "category": "Jeans",
+    "image_path": "images/apparel/23_apparel.jpeg"
+  },
+  {
+    "id": 81,
+    "name": "Geometric Print T-Shirt",
+    "category": "T-Shirts",
+    "image_path": "images/apparel/24_apparel.jpeg"
+  },
+  {
+    "id": 82,
+    "name": "Blue iPad",
+    "category": "Tablets",
+    "image_path": "images/electronics/17_el.webp"
+  },
+  {
+    "id": 83,
+    "name": "Android Tablet",
+    "category": "Tablets",
+    "image_path": "images/electronics/18_el.jpeg"
+  },
+  {
+    "id": 84,
+    "name": "Red Motorola Smartphone",
+    "category": "Smartphones",
+    "image_path": "images/electronics/19_el.webp"
+  },
+  {
+    "id": 85,
+    "name": "Samsung S25 Ultra",
+    "category": "Smartphones",
+    "image_path": "images/electronics/20_el.webp"
+  },
+  {
+    "id": 86,
+    "name": "Sleepy Owl Coffee Mug",
+    "category": "Mugs",
+    "image_path": "images/home_kitchen/23_hk.webp"
+  },
+  {
+    "id": 87,
+    "name": "Plastic Travel Mugs",
+    "category": "Mugs",
+    "image_path": "images/home_kitchen/24_hk.webp"
+  }
+]

@@ -1,0 +1,40 @@
+# General ignores for operating systems and IDEs
+.DS_Store
+.vscode/
+.idea/
+*.lnk
+
+# --- Backend (Python) ---
+
+# Virtual Environment
+backend/venv/
+
+# Python cache
+backend/__pycache__/
+*.pyc
+
+# Environment variables
+backend/.env
+
+# Large data files (embeddings). 
+# It's good practice to ignore this and generate it with a script.
+# If you cannot easily regenerate it, you can remove the line below to include it in your repo.
+backend/product_embeddings.npy
+
+
+# --- Frontend (React + Vite) ---
+
+# Node modules
+frontend/node_modules/
+
+# Build output folder
+frontend/dist/
+
+# Log files
+frontend/npm-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Environment variables
+frontend/.env*
+frontend/.env.*.local

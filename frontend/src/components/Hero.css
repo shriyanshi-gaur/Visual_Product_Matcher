@@ -1,0 +1,109 @@
+/* --- HERO SECTION CONTAINER --- */
+.hero-container {
+  text-align: center;
+  padding: 3rem 0; /* Adjusted vertical padding */
+  max-width: 900px; /* Constrain width for better readability */
+  margin: 0 auto; /* Center the container */
+  position: relative; /* For potential animations */
+}
+
+
+/* --- HEADINGS --- */
+.hero-container h1 {
+  font-size: 3.2rem; /* Larger, more impactful title */
+  font-weight: 700;
+  line-height: 1.15; /* Tighter line height for large text */
+  margin-bottom: 1.0rem; /* Space below title */
+  color: var(--text-color);
+  transition: opacity 0.5s ease-out; /* Smooth fade in */
+}
+
+.hero-container p {
+  font-size: 1.15rem; /* Readable paragraph size */
+  color: var(--text-muted);
+  max-width: 800px; /* Keep paragraph concise */
+  margin: 0 auto 2.5rem; /* Space below paragraph */
+  line-height: 1.6;
+  transition: opacity 0.5s ease-out 0.2s; /* Delayed smooth fade in */
+}
+
+/* --- CHECKLIST ITEMS (if you decide to use them, currently not in screenshot) --- */
+.hero-checklist {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem; /* Space above checklist */
+}
+
+.hero-checklist-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.hero-checklist-item svg {
+  color: var(--primary-color); /* Checkmark color */
+  width: 18px;
+  height: 18px;
+}
+
+/* --- CATEGORY SUGGESTION CONTAINER (from previous changes) --- */
+.category-suggestion-container {
+  margin-top: 2.5rem;
+  padding: 1.5rem;
+  background-color: var(--card-background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.category-suggestion-container p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  margin: 0 0 1rem 0;
+}
+
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.category-badge {
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+
+/* --- RESPONSIVENESS --- */
+@media (max-width: 768px) {
+  .hero-container h1 {
+    font-size: 2.5rem; /* Smaller title on tablets */
+  }
+
+  .hero-container p {
+    font-size: 1rem; /* Smaller paragraph on tablets */
+    margin-bottom: 2rem;
+  }
+
+  .hero-checklist {
+    flex-direction: column; /* Stack checklist items on tablets */
+    gap: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-container h1 {
+    font-size: 2rem; /* Even smaller title on mobile */
+  }
+}
