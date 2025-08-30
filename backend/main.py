@@ -101,7 +101,12 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # --- APP SETUP (No changes here) ---
 app = FastAPI()
-origins = ["http://localhost:5173"]
+# Get your deployed frontend URL from Render (e.g., https://visual-matcher-frontend.onrender.com)
+origins = [
+    "http://localhost:5173",  # For local development
+    "https://visual-matcher-frontend.onrender.com" # Your live frontend URL
+]
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
