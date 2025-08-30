@@ -83,7 +83,7 @@ const Hero = () => {
       <h1>Find Similar Products with <br/>Visual AI Technology</h1>
       <p>
         Upload any product image or paste an image URL to instantly discover similar items
-        from our vast catalog. Powered by advanced computer vision and machine learning.
+        from our vast catalog. 
       </p>
       
       {categories.length > 0 && (
