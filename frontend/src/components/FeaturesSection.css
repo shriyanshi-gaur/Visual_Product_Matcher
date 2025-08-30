@@ -45,3 +45,17 @@
   color: var(--text-muted);
   line-height: 1.6;
 }
+/* Add this media query to the bottom of the file */
+@media (max-width: 768px) {
+  .features-grid {
+    /* Change to 2 columns for tablets */
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .features-grid {
+    /* Change to 1 column for mobile phones */
+    grid-template-columns: 1fr;
+  }
+}
