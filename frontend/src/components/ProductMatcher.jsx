@@ -197,11 +197,10 @@ const ProductMatcher = () => {
 
     const handleFileChange = (event) => {
         const file = event.target.files[0];
+        console.log("File selected:", file); // DEBUGGING: Check the selected file object
+
         if (file && file.type.startsWith('image/')) {
-            // This is the key part: store the actual file object
             setSelectedFile(file);
-            
-            // Generate a preview for the UI
             const reader = new FileReader();
             reader.onloadend = () => {
                 setImagePreview(reader.result);
@@ -222,8 +221,8 @@ const ProductMatcher = () => {
         setError(null);
 
         const formData = new FormData();
-        // This logic correctly appends either the file or the URL
         if (activeTab === 'upload' && selectedFile) {
+            console.log("Appending file to FormData:", selectedFile); // DEBUGGING: Confirm we are appending the file
             formData.append('image', selectedFile);
         } else if (activeTab === 'url' && imageUrl) {
             formData.append('image_url', imageUrl);
