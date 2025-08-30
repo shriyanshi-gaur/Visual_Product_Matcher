@@ -282,7 +282,7 @@ const ProductMatcher = () => {
                                     <p>Drag and drop your product image here</p>
                                     <span>or click to browse files</span>
                                     <input type="file" id="file-upload" style={{ display: 'none' }} onChange={handleFileChange} accept="image/*" />
-                                    <label htmlFor="file-upload" className="btn btn-primary">
+                                    <label htmlFor="file-upload" className="btn btn-primary"  style={{ backgroundColor: "#0d6efd", borderColor: "#0d6efd", color: "white" }}>
                                         Choose File
                                     </label>
                                 </>
