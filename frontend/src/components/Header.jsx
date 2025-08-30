@@ -49,8 +49,11 @@ const Header = () => {
           <a href="#about">About</a>
         </nav>
         <div className="header-actions">
-          <button className="btn btn-secondary">GitHub</button>
-          
+          {/* <button className="btn btn-secondary">GitHub</button> */}
+          <button className="btn btn-secondary" onClick={() => window.open("https://github.com/shriyanshi-gaur/Visual_Product_Matcher", "_blank")}>
+          GitHub
+          </button>
+
         </div>
       </div>
     </header>
