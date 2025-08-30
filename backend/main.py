@@ -120,7 +120,7 @@ app.add_middleware(
 async def startup_event():
     global model, product_db, product_embeddings
     print("Loading AI model...")
-    model = SentenceTransformer('clip-ViT-B-32')
+    model = SentenceTransformer('all-MiniLM-L6-v2')
     print("Loading product database...")
     with open('database.json', 'r') as f:
         product_db = json.load(f)
