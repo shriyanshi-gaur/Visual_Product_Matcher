@@ -3,12 +3,12 @@
 
 /* Define color variables and base styles */
 :root {
-  --primary-color: #82699c; /* Dark gray/black */
+  --primary-color: #444345; /* Dark gray/black */
   --secondary-color: #ffffff; /* Light gray for buttons/badges */
-  --border-color: #757070; /* Border color */
-  --text-color: #6b0099;
-  --text-muted: #542c83;
-  --background-color: #faf8e3;
+  --border-color: #3f3f3f; /* Border color */
+  --text-color: #000000;
+  --text-muted: #474747;
+  --background-color: #ffffff;
 }
 
 * {
