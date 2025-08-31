@@ -2,7 +2,7 @@
 import React from 'react';
 import './FeaturesSection.css';
 
-// You can find free icons from libraries like Lucide React or use your own SVGs
+
 const Feature = ({ title, description }) => (
   <div className="feature-card">
     <h3>{title}</h3>
